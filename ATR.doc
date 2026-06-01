@@ -1,0 +1,16 @@
+ATR - Average True Rqange
+1. How to Decide the ATR Multiplier
+This is a crucial part of your trading strategy, and it is something you, the trader, must decide. The atr_multiplier defines your risk tolerance and how much you believe a stock needs to "breathe" before a pullback becomes a genuine reversal.
+
+Your bot is an execution engine—it follows your rules flawlessly. It is not an analysis engine that can create its own strategy.
+
+How to Choose Your Multiplier:
+Common Starting Points: A multiplier between 1.5 and 2.5 is a very common starting point for intraday trading.
+
+Tighter Stops (e.g., 1.5x ATR): Good for less volatile, stable stocks or if you want to exit a trade very quickly on the first sign of a reversal. The risk is being stopped out by normal market "noise."
+
+Wider Stops (e.g., 2.5x ATR or more): Better for more volatile stocks or trend-following strategies. This gives the trade more room to fluctuate during pullbacks but means you risk giving back more profit before the stop is hit.
+
+The Professional Method (Backtesting): The best way to find the optimal multiplier for a specific stock is to backtest your strategy. This involves using historical data to simulate how your bot would have performed with different multipliers (e.g., 1.5, 2.0, 2.5) to see which one produced the best risk-adjusted returns.
+
+Manual Observation: Watch a stock's intraday chart. Notice the depth of its typical pullbacks during an uptrend. This can give you an intuitive feel for whether a 1.5x ATR stop would have been too tight or a 2.5x ATR stop would have been too loose.

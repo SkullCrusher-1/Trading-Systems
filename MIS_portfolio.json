@@ -1,0 +1,14 @@
+[
+  {
+    "symbol": "INOXWIND",
+    "buy_range_pct": 1,
+    "atr_multiplier": 2,
+    "active": false
+  },
+  {
+    "symbol": "RELIANCE",
+    "buy_range_pct": 0.15,
+    "atr_multiplier": 1.5,
+    "active": false
+  }
+]
