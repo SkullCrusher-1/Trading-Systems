@@ -1,2 +1,2 @@
 # Trading-Systems
-I have created standard trading systems
+I have created a Intraday Trading Stoploss Bot
