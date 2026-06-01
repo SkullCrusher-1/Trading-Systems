@@ -1,0 +1,34 @@
+Get the request_token
+
+Run req_access_token.py
+Open the printed kite.login_url() in your browser
+Log in on Kite
+Copy the request_token from the redirect URL
+
+
+
+Generate the access_token
+
+Put that request_token into access_token.py:
+Run access_token.py
+It will print:
+Your access_token: <ACCESS_TOKEN>
+
+Update the bot config
+
+Your bot uses MIS_Trailing_SL_bot.py and loads:
+KITE_API_KEY
+KITE_ACCESS_TOKEN
+Put those into your .env file, or export them before running:
+
+KITE_API_KEY=abcdefghi
+KITE_ACCESS_TOKEN=<ACCESS_TOKEN_FROM_SCRIPT>
+
+
+Run the bot
+
+After updating KITE_ACCESS_TOKEN, start MIS_Trailing_SL_bot.py
+The bot calls:
+
+self.kite.set_access_token(self.access_token)
+
